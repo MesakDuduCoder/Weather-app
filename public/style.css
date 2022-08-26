@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background: #222;
+    background-image: url('https://source.unsplash.com/random/1920x1080/?wallpaper,landscape');
+}
+
+.card {
+    background: #000d00;
+    color: #fff;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+.description{
+    text-transform: capitalize;
+}
